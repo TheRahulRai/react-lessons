@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+video link: https://youtu.be/Ke90Tje7VS0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# In this tutorial:
+- Master React Fundamentals
+- Build Reusable Components
+- Render Data
+- Handle Events
+- Debug your React Apps
 
-## Available Scripts
+# Overview:
+A javascript library for building user unterfaces
 
-In the project directory, you can run:
+Components are piece of UI
 
-### `npm start`
+every react app is essentially a tree of componenets
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+each component have a javascript class, a state and a render method
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+react works upon a virtual DOM or we can say its the react DOM and it syncs with the real DOM of the browser, so if any change happens in the react dom then it syncs with the real dom and we see the changes
 
-### `npm test`
+so we don't need to attach any eventhandlers of javascript like:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```javascript
+document.querySelector();
+classList.add()
+addEventListener()
+```
 
-### `npm run build`
+**and thats why this library is called React, because it reacts to state changes**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## component based architecture
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
+### its going to install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- a light weight development server
+- a webpack for bundleing our files
+- and babel for compiling our javascript code
 
-### `npm run eject`
+in index.html the div is the container for our react apps
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+JSX stands for javascript XML
+babel converts this jsx to javascript code that browsers can understand
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+in import React from 'react';
+1st React is the object and the 'react' is the module
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+in react we import React from 'react', but why?
+because when our react code is compiled, babel uses React.createElements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Hot module reloading** means that the app reloads automatically without saving
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ayu mirage
+simple react snippets
